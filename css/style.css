@@ -168,16 +168,18 @@ hr {
 /* Home Section */
 .intro {
 	display: table;
-	width: 100%;
+	width: auto;
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
-	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #7bc3d1;
+	color: #000000;
+	background: /*url(../img/MIP_logov4.png) no-repeat center top;*/;cont
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
 	-o-background-size: cover;
 }
 .section-title.center {

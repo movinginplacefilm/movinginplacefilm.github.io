@@ -1580,6 +1580,12 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.containerintro {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
