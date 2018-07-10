@@ -39,10 +39,22 @@ p.intro {
 a {
 	color: #333;
 }
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
 a:hover, a:focus {
 	text-decoration: none;
-	color: #7bc3d1;
+	color: blue;
 }
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 ul, ol {
 	list-style: none;
 }
