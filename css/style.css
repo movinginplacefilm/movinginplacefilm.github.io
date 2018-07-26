@@ -649,7 +649,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Media Queries */
 @media(min-width:768px) {
 .intro {
-	height: 100%;
+	height: ;
 	padding: 0;
 	text-align: left;
 	color: #fff;
