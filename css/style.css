@@ -202,6 +202,7 @@ hr {
 	display: table;
 	width: auto;
 	height: auto;
+	background-color: #154d64;
 	/*padding: 100px 0;
 	text-align: center;
 	color: #000000;
@@ -217,6 +218,13 @@ hr {
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
 /* About Section */
 #about {
 	padding: 50px 0;
@@ -337,11 +345,11 @@ ol.type li a:hover {
 	-webkit-transition-duration: 0.8s;
 	-moz-transition-duration: 0.8s;
 	transition-duration: 0.8s;
+
 }
 
 .isotope-item {
-	margin-right: auto;
-	margin-left: auto;
+	width: 290px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }

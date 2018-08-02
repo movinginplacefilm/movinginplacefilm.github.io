@@ -1292,7 +1292,9 @@
 
   };
 
-
+masonry: {
+  fitWidth: true
+}
   // ======================= imagesLoaded Plugin ===============================
   /*!
    * jQuery imagesLoaded plugin v1.1.0
