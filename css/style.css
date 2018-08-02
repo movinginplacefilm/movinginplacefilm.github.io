@@ -5,6 +5,7 @@ body, html {
 	color: #656c6d;
 	width: 100% !important;
 	height: 100% !important;
+	background-color:#154d64;
 }
 h1 {
 	font-weight: 700;
@@ -203,13 +204,14 @@ hr {
 	width: auto;
 	height: auto;
 	background-color: #154d64;
+	background-size: 100%;
 	/*padding: 100px 0;
 	text-align: center;
 	color: #000000;
 	/*background: /*url(../img/MIP_logov4.png) no-repeat center top;;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+
 	background-color: #000000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
