@@ -101,7 +101,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #121d1f;
+	background-color: #154d64;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -185,7 +185,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #000000;
-	background: /*url(../img/MIP_logov4.png) no-repeat center top;*/;cont
+	background: /*url(../img/MIP_logov4.png) no-repeat center top;*/;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -200,10 +200,18 @@ hr {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+	/*background: #47645f; /*#f6f6f6;*/
+	/*background-image: url(../img/aboutbkg.png);*/
+	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
 }
 #about .about-text {
 	margin-left: 10px;
+	color: #ffffff;
 }
 #about img {
 	border-radius: 50%;
@@ -218,13 +226,17 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #skills h2 {
 	color: #fff;
 }
 #skills hr {
-	background: rgba(255,255,255,0.3);
+	background: #7bc3d1;
 }
 #skills .skill {
 	margin-bottom: 40px;
@@ -396,13 +408,17 @@ ol.type li a:hover {
 /* Achivements Section */
 #achievements {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #achievements h2 {
 	color: #fff;
 }
 #achievements hr {
-	background: rgba(255,255,255,0.3);
+	background: #7bc3d1;
 }
 .achievement-box h4 {
 	color: #fff;
@@ -526,13 +542,17 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: url(../img/contbkg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #contact h2 {
 	color: #fff;
 }
 #contact hr {
-	background: rgba(255,255,255,0.3);
+	background: #7bc3d1;
 }
 #contact h3 {
 	padding-top: 20px;
@@ -632,15 +652,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #121d1f;
+	background: #154d64;
 	color: #7d8384;
 	padding: 30px 0 25px 0;
 }
 #footer p {
 	font-size: 13px;
+	color: #ffffff;
 }
 #footer a {
-	color: #a0a5a5;
+	color: #ffffff;
 }
 #footer a:hover {
 	color: #7bc3d1;
