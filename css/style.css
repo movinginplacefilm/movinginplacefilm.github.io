@@ -179,34 +179,34 @@ hr {
 }
 /* Home Section */
 .intro {
+	margin-top: 70px;
+	margin-bottom: -2px;
 	display: table;
 	width: auto;
 	height: auto;
-	padding: 100px 0;
+	/*padding: 100px 0;
 	text-align: center;
 	color: #000000;
-	background: /*url(../img/MIP_logov4.png) no-repeat center top;*/;
+	/*background: /*url(../img/MIP_logov4.png) no-repeat center top;;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #000000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover;*/
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 50px 0;
 	/*background: #47645f; /*#f6f6f6;*/
 	/*background-image: url(../img/aboutbkg.png);*/
 	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: repeat;
 
 }
 #about .about-text {
@@ -223,14 +223,15 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
+#about h2 {
+	line-height: 1.1;
+}
 /* Skills Section */
 #skills {
-	padding: 100px 0;
+	padding:50px;
 	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: repeat;
 }
 #skills h2 {
 	color: #fff;
@@ -407,12 +408,10 @@ ol.type li a:hover {
 }
 /* Achivements Section */
 #achievements {
-	padding: 100px 0;
+	padding:50px;
 	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: repeat;
 }
 #achievements h2 {
 	color: #fff;
