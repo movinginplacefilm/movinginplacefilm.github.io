@@ -228,7 +228,7 @@ hr {
 
 }
 #about .about-text {
-	margin-left: 10px;
+	margin-left: 0px;
 	color: #ffffff;
 }
 #about img {
@@ -293,15 +293,14 @@ hr {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 80px 0;
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
+	width:100%;
+	padding:50px;
+	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#portfolio h2 {
+	color: #fff;
 }
 .categories {
 	padding-bottom: 30px;
@@ -317,7 +316,7 @@ ol.type li {
 ol.type li a {
 	background: #7bc3d1;
 	color: #fff;
-	padding: 6px 14px;
+	padding: 6px 6px;
 }
 ol.type li a.active {
 	background: #121d1f;
@@ -339,12 +338,17 @@ ol.type li a:hover {
 	-moz-transition-duration: 0.8s;
 	transition-duration: 0.8s;
 }
+
 .isotope-item {
-	margin-right: -1px;
+	margin-right: auto;
+	margin-left: auto;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 .isotope {
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	-webkit-transition-property: height, width;
@@ -359,7 +363,8 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 15px 0;
+	margin: 15px 15px;
+	width: 100%;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -375,13 +380,14 @@ ol.type li a:hover {
 }
 .portfolio-item .hover-bg {
 	height: 260px;
+	width: 260px;
 	overflow: hidden;
 	position: relative;
 }
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
-	margin: 0 auto;
+	margin: 0 0;
 	color: #ffff00;
 	background: rgba(0, 0, 0, 0.66);
 	padding: 33% 0 0 0;
