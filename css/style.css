@@ -253,24 +253,24 @@ hr {
 	line-height: 1.1;
 }
 /* Skills Section */
-#skills {
+#trailer {
 	padding:50px;
 	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
 }
-#skills h2 {
+#trailer h2 {
 	color: #fff;
 }
-#skills hr {
+#trailer hr {
 	background: #7bc3d1;
 }
-#skills .skill {
+#trailer .skill {
 	margin-bottom: 40px;
 	text-align: center;
 	padding: 0px;
 }
-#skills .skill h4 {
+#trailer .skill h4 {
 	font-weight: 600;
 	color: #fff;
 }
