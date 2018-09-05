@@ -238,6 +238,7 @@ hr {
 #about .about-text {
 	margin-left: 0px;
 	color: #ffffff;
+	text-align: center;
 }
 #about img {
 	border-radius: 50%;
@@ -466,6 +467,11 @@ ol.type li a:hover {
 	font-weight: 700;
 	color: #fff;
 }
+
+#media img {
+	max-width: 80%;
+    max-height: 80%;
+}	
 /* Contact Section */
 #contact {
 	padding: 50px 0 40px 0;
