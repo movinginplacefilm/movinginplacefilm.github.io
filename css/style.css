@@ -41,7 +41,7 @@ a {
 	color: #333;
 }
 
-/* video wrapper */
+/* video wrapper PLEASE*/
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -441,13 +441,10 @@ ol.type li a:hover {
 }
 /* Media Section */
 #media {
-	padding: 50px 100px 40px 50px;
-	color: #121d1f;
+	padding:50px;
 	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: repeat;
 }
 #media h2 {
 	color: #fff;
