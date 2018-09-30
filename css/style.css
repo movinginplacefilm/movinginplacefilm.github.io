@@ -469,6 +469,39 @@ ol.type li a:hover {
 	max-width: 80%;
     max-height: 80%;
 }	
+
+/* Events Section */
+#events {
+	padding:50px;
+	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#events h2 {
+	color: #fff;
+}
+#events hr {
+	background: #7bc3d1;
+}
+#events h3 {
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+}
+#events h4 {
+	padding-bottom: 20px;
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#events img {
+	max-width: 80%;
+    max-height: 80%;
+}	
+
+
 /* Contact Section */
 #contact {
 	padding: 50px 0 40px 0;
