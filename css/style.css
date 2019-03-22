@@ -66,17 +66,17 @@ a {
 
 /* visited link */
 a:visited {
-    color: black;
+    color: #000000;
 }
 
 a:hover, a:focus {
 	text-decoration: none;
-	color: blue;
+	color: #ffffff;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: #000000;
 }
 
 ul, ol {
@@ -241,7 +241,8 @@ hr {
 
 }
 #about .about-text {
-	margin-left: 0px;
+	margin-left: auto;
+    margin-right: auto;
 	color: #ffffff;
 	text-align: center;
 }
