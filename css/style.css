@@ -203,7 +203,6 @@ hr {
 	margin-right: 10px;
 }
 
-/* End watch navbar */
 
 /* Home Section */
 .intro {
@@ -212,17 +211,15 @@ hr {
 	background: url(../img/topbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
-	/*padding: 100px 0;
-	display: table;
-	text-align: center;
-	color: #000000;
-	/*background: /*url(../img/topbkg.png) no-repeat center top;;
-
-
-	background-color: #000000;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;*/
+}
+@media (max-width: 1000px) {
+.intro {
+	margin-top: 140px;
+	margin-bottom: -2px;
+	background: url(../img/topbkg.png) no-repeat center center fixed; 
+	background-size: 100%;
+	background-repeat: repeat;
+}
 }
 .section-title.center {
 	padding: 25px 0 45px 0;
