@@ -260,6 +260,24 @@ hr {
 #about h2 {
 	line-height: 1.1;
 }
+#about h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 34px;
+}
+@media (max-width: 768px) {
+	#about h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+}
 /* Skills Section */
 #trailer {
 	padding:50px;
@@ -269,6 +287,15 @@ hr {
 }
 #trailer h2 {
 	color: #fff;
+}
+@media (max-width: 768px) {
+	#trailer h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
 }
 #trailer hr {
 	background: #7bc3d1;
@@ -322,7 +349,15 @@ hr {
 	font-weight: 600;
 	color: #fff;
 }
-
+@media (max-width: 768px) {
+	#watch h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
 #watch h4 {
 	padding-bottom: 20px;
 	font-size: 15px;
@@ -339,6 +374,15 @@ hr {
 }
 #portfolio h2 {
 	color: #fff;
+}
+@media (max-width: 768px) {
+	#portfolio h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
 }
 .categories {
 	padding-bottom: 30px;
@@ -478,6 +522,15 @@ ol.type li a:hover {
 #media h2 {
 	color: #fff;
 }
+@media (max-width: 768px) {
+	#media h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
+}
 #media hr {
 	background: #7bc3d1;
 }
@@ -505,6 +558,15 @@ ol.type li a:hover {
 	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
+}
+@media (max-width: 768px) {
+	#events h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
 }
 #events h2 {
 	color: #fff;
@@ -540,6 +602,15 @@ ol.type li a:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+@media (max-width: 768px) {
+	#contact h1 {
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 20px;
+	font-size: 25px;
 }
 #contact h2 {
 	color: #fff;
