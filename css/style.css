@@ -239,7 +239,16 @@ hr {
 	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
-
+}
+@media (max-width: 1000px) {
+#about h1{
+	line-height: 40px;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
 }
 #about .about-text {
 	margin-left: auto;
