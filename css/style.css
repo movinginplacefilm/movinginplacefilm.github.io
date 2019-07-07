@@ -375,15 +375,7 @@ hr {
 #portfolio h2 {
 	color: #fff;
 }
-@media (max-width: 768px) {
-	#portfolio h1 {
-	line-height: 40px;
-	margin: 0;
-	color: #ffffff;
-	font-weight: 400;
-	margin-bottom: 20px;
-	font-size: 25px;
-}
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
