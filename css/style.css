@@ -124,11 +124,12 @@ hr {
 	width: 100%
 }
 .navbar-custom {
-	margin-bottom: 0;
+	margin-bottom: 100 px;
 	background-color: #154d64;
 	border-radius: 0px;
-	padding: 10px 0;
+	padding: 5px 0;
 }
+
 .navbar-custom .navbar-brand {
 	font-weight: 200;
 }
@@ -176,7 +177,7 @@ hr {
 	color: #fff;
 	background-color: transparent;
 	border-color: #fff;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
@@ -201,9 +202,12 @@ hr {
 .btn-primary i.fa {
 	margin-right: 10px;
 }
+
+/* End watch navbar */
+
 /* Home Section */
 .intro {
-	margin-top: 90px;
+	margin-top: 70px;
 	margin-bottom: -2px;
 	background: url(../img/topbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
@@ -306,11 +310,26 @@ hr {
 	margin-left: 0.1em;
 	font-size: .8em;
 }
-/* Portfolio Section */
-#portfolio {
+/*Watch Section*/
+#watch {
 	width:100%;
 	padding:50px;
 	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
+	background-size: 100%;
+	background-repeat: repeat;
+}
+#watch h3 {
+	padding-top: -30px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+}
+/* Portfolio Section (Team) */
+#portfolio {
+	width:100%;
+	padding:50px;
+	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
 }
@@ -448,7 +467,7 @@ ol.type li a:hover {
 /* Media Section */
 #media {
 	padding:50px;
-	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
+	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
 }
@@ -479,7 +498,7 @@ ol.type li a:hover {
 /* Events Section */
 #events {
 	padding:50px;
-	background: url(../img/aboutbkg.png) no-repeat center center fixed; 
+	background: url(../img/trailerbkg.png) no-repeat center center fixed; 
 	background-size: 100%;
 	background-repeat: repeat;
 }

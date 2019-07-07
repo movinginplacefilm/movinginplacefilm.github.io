@@ -1580,13 +1580,17 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.containernav {
+  margin-right: auto;
+  margin-left: auto;
+}
 .containerintro {
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .container {
     width: 768px;
   }
@@ -1595,7 +1599,7 @@ pre code {
   .container {
     width: 992px;
   }
-}*/
+}
 @media (min-width: 1400px) {
   .container {
     width: 1200px;
@@ -4114,6 +4118,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+	margin-left: auto;
+	margin-right: auto;
   }
 }
 .navbar-collapse {
@@ -4215,6 +4221,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 18px;
   line-height: 20px;
 }
+
+.navcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+.navbar-watch {
+  height: 50px;
+  margin-bottom:5px;
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;

@@ -112,6 +112,7 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .btmspace-50{margin-bottom:50px;}
 .btmspace-80{margin-bottom:80px;}
 
+.lrspace-10{margin-left:10px;margin-right:10px}
 .lrspace-30{margin-left:30px;margin-right:30px}
 .lrspace-50{margin-left:50px;margin-right:50px}
 .lrspace-80{margin-left:80px;margin-right:80px}
