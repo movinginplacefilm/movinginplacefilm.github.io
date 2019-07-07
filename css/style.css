@@ -322,6 +322,13 @@ hr {
 	font-weight: 600;
 	color: #fff;
 }
+
+#watch h4 {
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-weight: 200;
+	color: #fff;
+}
 /* Portfolio Section (Team) */
 #portfolio {
 	width:100%;
